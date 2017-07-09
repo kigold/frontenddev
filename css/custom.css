@@ -1,0 +1,154 @@
+body{
+
+}
+.tophead{
+	padding: 0px 0px 0px 0px;
+	border-bottom:1px solid #CCC;
+}
+.toplft{
+	width:140px;
+	display: block;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	padding:10px; 
+	text-align: center;
+}
+.topnumb{
+	width: 145px;
+	float: right;
+	border-left:1px solid #CCC;
+	padding: 10px;
+}
+.soc{
+	width: 145px;
+	float: right;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	padding: 10px;
+}
+.soc ul{
+	margin: 0px;
+	padding: 0px;
+}
+.soc ul li {
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 0px 8px 0px 8px;
+}
+.soc ul li a{
+	text-decoration: none;
+	color: #000;
+
+}
+.padlr{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-inverse{
+	background: none;
+	border: none;
+
+}
+a.navbar-brand{
+	color: #000 !important;
+	font-weight: bold;
+}
+a.navbar-brand:hover{
+	color: #7F00FF !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: #000;
+	padding-top: 8px;       
+    padding-bottom: 8px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color:  #7F00FF;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a.lbg{
+	color: #FFF;
+	background:  #7F00FF;
+}
+.navbar-inverse .navbar-nav > li > a.mryt{
+	margin-right: 10px;
+}
+.nav{
+	margin-top: 10px;
+}
+.navbar{
+	margin-bottom:0px;
+}
+.secpad{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.title-h{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.title-h span{
+
+}
+.icn span{
+	display: block;
+	width: 90px;
+	height: 90px;
+	font-size: 25px;
+	padding: 27px 20px 20px 20px;
+	text-align: center;
+	color: #000;
+	background: #F5F5F5;
+	border-radius:50%;
+	margin: auto;
+}
+.icn h4{
+	text-align: center;
+}
+.icn-des{
+	text-align: center;
+}
+.margbtm{
+	margin-bottom: 15px;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #2D6CDF !important;
+}
+.navbar-inverse .navbar-toggle{
+	border-radius:0; 
+}
+@media (min-width:20px) and (max-width:767px) {
+	.toplft{
+	width:100%;
+	display: block;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	padding:10px; 
+	text-align: center;
+}
+  .topnumb{
+	width: 50%;
+	float: right;
+	border-left:1px solid #CCC;
+	padding: 10px;
+}
+.soc{
+	width: 50%;
+	float: right;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	padding: 10px;
+}
+.navbar-inverse .navbar-nav > li > a.lbg{
+	width: 170px;
+	text-align: center;	
+	margin: auto;
+	margin-bottom: 10px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		border-color:#CCC;
+	}
+}
